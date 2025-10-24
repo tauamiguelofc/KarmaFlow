@@ -1,0 +1,4 @@
+[00:00:00.911] Server  LOG      ✓ Ready in 639ms
+[00:00:11.363] Server  ERROR    ⨯ Error: MONGODB_URI não definido nos secrets
+[00:00:15.923] Server  ERROR    ⨯ Error: MONGODB_URI não definido nos secrets
+[00:00:17.979] Server  ERROR    ⨯ Error: MONGODB_URI não definido nos secrets
