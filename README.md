@@ -1,26 +1,31 @@
 # 🧠 KarmaFlow
 
-**KarmaFlow** é um sistema de feedback inteligente e minimalista feito com **Next.js**, **MongoDB** e **TailwindCSS**.  
-Crie, envie e visualize feedbacks de forma anônima ou pública.  
-Perfeito para equipes que querem crescer sem drama.
+Sistema de **feedback anônimo** para equipes.  
+Construído com **Next.js**, **MongoDB** e **TailwindCSS**, com tema escuro e deploy instantâneo no **Codespaces**.  
+Sem segredos no código — tudo gerenciado via **GitHub Secrets**.
 
 ---
 
 ## 🚀 Funcionalidades
 - Envio de feedback anônimo ou identificado  
-- Listagem em tempo real de mensagens  
-- Painel escuro, responsivo e elegante  
-- Banco de dados MongoDB simples via Mongoose  
-- Pronto para rodar no **GitHub Codespaces**
+- Listagem dinâmica de mensagens  
+- Visual escuro, responsivo e limpo  
+- Integração com **MongoDB Atlas** via Secrets  
+- Sem dependências desnecessárias
 
 ---
 
-## 🛠️ Tecnologias
-Next.js • MongoDB • TailwindCSS • Recharts (opcional)
+## ⚙️ Variáveis de ambiente (Secrets)
+
+| Nome         | Descrição                  |
+|---------------|----------------------------|
+| `MONGODB_URI` | URI completa do seu MongoDB |
+
+Configure em **Settings → Secrets → Actions** do repositório.
 
 ---
 
-## ⚙️ Como rodar
+## 💻 Rodar no Codespaces
 ```bash
 npm install
 npm run dev
